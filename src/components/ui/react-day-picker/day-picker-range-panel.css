@@ -1,0 +1,26 @@
+/**
+ * 区间首尾默认：td 半格渐变 + 正圆按钮，与条带接缝处易出现锯齿/尖角。
+ * 改为与中间格同色实底 + 胶囊形按钮，视觉连续更平滑。
+ */
+.day-picker-range-panel.rdp-root {
+  /* 约等于 day_button 高度一半，呈胶囊与横向高亮相接 */
+  --rdp-day_button-border-radius: 21px;
+}
+
+.day-picker-range-panel.rdp-root .rdp-range_start,
+.day-picker-range-panel.rdp-root .rdp-range_end {
+  background: var(--rdp-range_middle-background-color);
+}
+
+.day-picker-range-panel.rdp-root .rdp-range_start.rdp-range_end {
+  background: var(--rdp-range_middle-background-color);
+}
+
+.day-picker-range-panel.rdp-root .rdp-selected .rdp-day_button {
+  border-color: transparent;
+}
+
+.day-picker-range-panel.rdp-root .rdp-range_start .rdp-day_button,
+.day-picker-range-panel.rdp-root .rdp-range_end .rdp-day_button {
+  border: none;
+}
