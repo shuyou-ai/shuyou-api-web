@@ -352,4 +352,4 @@ WebSocket  ──直连──►  NEXT_PUBLIC_WS_UPSTREAM/websocket
 
 - **仓库**：[github.com/shuyou-ai/shuyou-api-web](https://github.com/shuyou-ai/shuyou-api-web)
 - **API 文档**：[docs.shuyou.ai](https://docs.shuyou.ai/)
-- **线上示例**：[coder.shuyou.ai](https://coder.shuyou.ai/) / [coder.shuyou.ai](https://coder.shuyou.ai/)
+- **线上示例**：[coder.shuyou.ai](https://coder.shuyou.ai/) / [api.shuyou.ai](https://api.shuyou.ai/)
